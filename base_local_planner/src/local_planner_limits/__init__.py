@@ -24,7 +24,7 @@ def add_generic_localplanner_params(gen):
     gen.add("min_vel_y", double_t, 0, "The minimum y velocity for the robot in m/s", -0.1)
 
     gen.add("max_vel_theta", double_t, 0, "The absolute value of the maximum rotational velocity for the robot in rad/s",  1.0, 0)
-    gen.add("min_vel_theta", double_t, 0, "The absolute value of the minimum rotational velocity for the robot in rad/s", 0.4, 0)
+    gen.add("min_vel_theta", double_t, 0, "The absolute value of the minimum rotational velocity for the robot in rad/s", 0.9, 0)
 
     # acceleration
     gen.add("acc_lim_x", double_t, 0, "The acceleration limit of the robot in the x direction", 2.5, 0, 20.0)
